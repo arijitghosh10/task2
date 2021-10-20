@@ -1,0 +1,18 @@
+.explore{
+    width: 30rem;
+    height: 37rem;
+    background: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.para{
+    font-size:2.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+.para a{
+    color: #fff;
+    text-decoration:none;
+}

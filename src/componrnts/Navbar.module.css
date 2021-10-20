@@ -1,0 +1,53 @@
+.navbarItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50rem;
+    left: 28%;
+    top: 18%;
+    font-size: 2rem;
+}
+.navbarItems ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap: 3rem;
+    text-align: center;
+}
+.navbarLink,.home{
+    text-decoration: none;
+    color: black;
+    transition: color 500ms ease;
+    cursor: pointer;
+}
+.navbarLink::after{
+    content: '';
+    height: 3.5rem;
+    width: 0.1rem;
+    position: absolute;
+    background: rgb(182, 178, 178);
+    left: 81%;
+ }
+.home{
+   color: crimson;
+}
+.home::after{
+   content: '';
+   height: 3.5rem;
+   width: 0.05rem;
+   position: absolute;
+   background: rgb(182, 178, 178);
+   left: 50%;
+}
+.home::before{
+    content: '';
+    height: 3.5rem;
+    width: 0.1rem;
+    position: absolute;
+    background: rgb(182, 178, 178);
+    left: 15%;
+ }
+.navbarLink:hover{
+    color: rgb(245, 37, 37);
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
+.section2{
+    width: 95rem;
+    height: 37rem;
+    margin: auto;
+    display: flex;
+}
+.picture1{
+    width: 45rem;
+    background: url('../../assets/digital1.jpg');
+    background-size: 100% 100%;
+}
+.info{
+    width: 25rem;
+    background: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.info div:first-of-type{
+    max-width: 15ch;
+}
+.info a{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Andada Pro', serif
+}
+.picture2{
+    width: 25rem;
+    background: url('../../assets/digital2.jpg');
+    background-size: 100% 100%;
+}

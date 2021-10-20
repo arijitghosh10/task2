@@ -1,0 +1,4 @@
+.allCourses{
+    display: flex;
+    flex-direction: column;
+}

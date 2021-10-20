@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+.title{
+    position: absolute;
+    left: 28%;
+    top: -6%;
+    font-size: 3.4rem;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 0.2;
+    letter-spacing: 2px;
+    color: #E81038;
+    font-family: 'Questrial', sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.498) -1px -1px 0,
+    rgba(0, 0, 0, 0.498) -1px 1px 0,
+    rgba(0, 0, 0, 0.498) 1px 1px 0,
+    rgba(0, 0, 0, 0.498) 1px -1px 0;
+    z-index: 100;
+}
+span{
+    color: #000;
+}
