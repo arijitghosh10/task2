@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 .hero{
-    width: 91rem;
-    height: 30rem;
+    width: 73rem;
+    height: 26rem;
     margin: 2rem auto 0;
     display: flex;
     justify-content: center;
@@ -11,6 +11,7 @@
     position: relative;
     overflow: hidden;
     background-size: cover;
+    padding-left: 4rem;
 }
 .bgVideo{
     position: absolute;
@@ -24,16 +25,16 @@
     padding: 8rem 0 0;
 }
 .text h1{
-   font-size: 5rem;
+   font-size: 4rem;
    font-weight: 400;
    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
    font-family: 'Questrial', sans-serif;
 }
 .text button{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: 'Questrial', sans-serif;
     font-weight: 300;
-    padding: 1.5rem 3rem;
+    padding: 1.25rem 2.5rem;
     background: crimson;
     color: #fff;
     border: none;
@@ -42,9 +43,10 @@
     outline: none;
 }
 .text button:hover{
-    font-size: 2rem;
-    padding: 1.25rem 1.25rem;
+    font-size: 1.85rem;
+    padding: 1rem 0.5rem;
     background:#fff;
     color: #000;
     text-shadow: rgb(51, 50, 50) 2px 3px 5px;
+    border: 1px solid #000;
 }

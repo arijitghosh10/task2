@@ -5,7 +5,7 @@ const IntroPic = () => {
     return (
         <div className={styles.intro}>
             <div className={styles.imgText}>
-                <h1>A World of Knowledge at Your Fingertips</h1>
+                A World of Knowledge at Your Fingertips
             </div>
         </div>
     )

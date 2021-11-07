@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/task2/static/css/main.db066ab6.chunk.css",
+    "main.js": "/task2/static/js/main.8fbec587.chunk.js",
+    "main.js.map": "/task2/static/js/main.8fbec587.chunk.js.map",
+    "runtime-main.js": "/task2/static/js/runtime-main.385e9988.js",
+    "runtime-main.js.map": "/task2/static/js/runtime-main.385e9988.js.map",
+    "static/js/2.c7f58718.chunk.js": "/task2/static/js/2.c7f58718.chunk.js",
+    "static/js/2.c7f58718.chunk.js.map": "/task2/static/js/2.c7f58718.chunk.js.map",
+    "index.html": "/task2/index.html",
+    "static/css/main.db066ab6.chunk.css.map": "/task2/static/css/main.db066ab6.chunk.css.map",
+    "static/js/2.c7f58718.chunk.js.LICENSE.txt": "/task2/static/js/2.c7f58718.chunk.js.LICENSE.txt",
+    "static/media/consult.ba3ac313.mp4": "/task2/static/media/consult.ba3ac313.mp4",
+    "static/media/DigitalMarketing.module.css": "/task2/static/media/digital2.5e9bcf5b.jpg",
+    "static/media/EntrePic.module.css": "/task2/static/media/entre.f3b36335.jpg",
+    "static/media/Testimonials.module.css": "/task2/static/media/lines.8ab49c92.jpg",
+    "static/media/IntroPic.module.css": "/task2/static/media/pic.8fd816cf.png",
+    "static/media/students.472df611.jpg": "/task2/static/media/students.472df611.jpg",
+    "static/media/Welcome.module.css": "/task2/static/media/welcome.d1860b51.jpg",
+    "static/media/ProductManagement.module.css": "/task2/static/media/xxx.41d84077.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.385e9988.js",
+    "static/js/2.c7f58718.chunk.js",
+    "static/css/main.db066ab6.chunk.css",
+    "static/js/main.8fbec587.chunk.js"
+  ]
+}

@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
 .section3{
-    width: 95rem;
-    height: 37rem;
+    width: 75rem;
+    height: 30rem;
     margin: auto;
     display: flex;
 }
 .explore{
-    width: 45rem;
-    height: 37rem;
+    width: 37rem;
+    height: 30rem;
     background: crimson;
     display: flex;
     flex-direction: column;
@@ -15,17 +15,20 @@
     align-items: center;
 }
 .explore div{
-    max-width: 30ch;
+    max-width: 25ch;
     text-align: center;
 }
 .explore a{
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-family: 'Andada Pro', serif
 }
+.product{
+    margin-top: -4rem;
+}
 .picture{
-    height: 37rem;
-    width: 50rem;
+    height: 30rem;
+    width: 38rem;
     background: url('../../assets/xxx.jpg');
     background-size: 100% 100%;
 }

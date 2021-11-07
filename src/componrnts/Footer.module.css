@@ -1,7 +1,7 @@
 footer{
     background: rgb(255, 255, 255);
     width: 100%;
-    height: 22rem;
+    height: 18rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -14,11 +14,11 @@ footer{
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 4rem;
+    gap: 2.5rem;
 }
 .socialLinks{
-    font-size: 4.5rem;
-    width: 16rem;
+    font-size: 3.75rem;
+    width: 14rem;
     display: flex;
     justify-content: space-between;
 }
@@ -27,7 +27,7 @@ footer{
     align-items: center;
 }
 .formDiv h2{
-    font-size: 1.75rem;
+    font-size: 1.2rem;
 }
 .form{
     display: flex;
@@ -41,12 +41,16 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.25rem 0.6rem;
 }
 .inputs input{
-    font-size: 1.25rem;
-    padding: 1rem 0.25rem;
-    width: 15rem;
+    font-size: 1rem;
+    padding: 0.75rem 0.25rem;
+    width: 13rem;
+}
+.inputs input:hover{
+    border: 2px solid rgb(184, 184, 184);
+    background-color: rgb(241, 255, 251);
 }
 .inputs input:focus{
    outline: none;
@@ -55,10 +59,11 @@ footer{
     border: 2px solid red;
 }
 .button{
-    font-size: 1.25em;
-    padding: 0.25rem 3rem;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.1rem 2rem;
     outline: none;
-    border: 3px solid #000;
+    border: 2.5px solid #000;
     cursor: pointer;
     transition: background 400ms ease;
 }
@@ -72,20 +77,20 @@ footer{
     justify-content: space-between;
 }
 .extras a{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #000;
     text-shadow: rgb(124, 124, 124) 2px 4px 6px;
     text-decoration: none;
 }
 .copyryt{
     width: 100%;
-    height: 2.5rem;
+    height: 2rem;
     background: rgb(247, 90, 51);
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.25rem;
 }
-@media(max-width:1540px){
+@media(max-width:1320px){
     footer{
-        width: 105rem;
+        width: 84rem;
     }
 }

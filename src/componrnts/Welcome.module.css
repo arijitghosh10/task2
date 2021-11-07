@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cookie&display=swap');
 .container{
-    width: 95rem;
+    width: 75rem;
     height: 32rem;
     margin: 1.5rem auto;
     background: url('../assets/welcome.jpg') no-repeat center;
@@ -19,31 +19,24 @@
     font-size: 5.5rem;
     font-weight: 900;
     color: crimson;
-    text-shadow: 2px 2px 3px rgb(128, 128, 128);
+    text-shadow: 2px 2px 3px rgb(207, 207, 207),
+                 2px 4px 3px rgb(128, 128, 128);
 }
 .heading2 {
     font-family: 'Anton', sans-serif;;
-    font-size: 7rem;
+    font-size: 5.75rem;
     font-weight: 900;
     margin: -3rem 0 4rem;
     font-style: italic;
     letter-spacing: 10px;
     color: rgb(219, 187, 6);
-    text-shadow: 2px 5px 3px rgb(128, 128, 128);
-}
-.heading2 h1::before{
-    content: ' ';
-    height: 0.3rem;
-    width: 3rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: rgb(24, 24, 24);
+    text-shadow: 0 2px 3px rgb(231, 231, 231),
+    0 4px 3px rgb(173, 173, 173);
 }
 .btnDiv button{
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
-    padding: 1.5rem 3.5rem;
+    padding: 1.25rem 3rem;
     border: none;
     border-radius: 2.25rem;
     background-image: linear-gradient(to right,rgb(28, 28, 247) 10%,rgb(238, 58, 58));

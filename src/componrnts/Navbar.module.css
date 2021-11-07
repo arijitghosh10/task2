@@ -3,10 +3,10 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 50rem;
+    width: 40rem;
     left: 28%;
-    top: 18%;
-    font-size: 2rem;
+    top: 20%;
+    font-size: 1.5rem;
 }
 .navbarItems ul{
     list-style: none;
@@ -19,31 +19,31 @@
     text-decoration: none;
     color: black;
     transition: color 500ms ease;
-    cursor: pointer;
+
 }
 .navbarLink::after{
     content: '';
-    height: 3.5rem;
-    width: 0.1rem;
+    height: 2.75rem;
+    width: 0.05rem;
     position: absolute;
     background: rgb(182, 178, 178);
-    left: 81%;
+    left: 79%;
  }
 .home{
    color: crimson;
 }
 .home::after{
    content: '';
-   height: 3.5rem;
+   height: 2.75rem;
    width: 0.05rem;
    position: absolute;
    background: rgb(182, 178, 178);
-   left: 50%;
+   left: 49%;
 }
 .home::before{
     content: '';
-    height: 3.5rem;
-    width: 0.1rem;
+    height: 2.75rem;
+    width: 0.05rem;
     position: absolute;
     background: rgb(182, 178, 178);
     left: 15%;

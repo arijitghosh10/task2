@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 .intro{
-   width: 95rem;
-   height: 48rem;
-   display: grid;
-   place-items: end;
+   width: 75rem;
+   height: 40rem;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
    margin: 2rem auto auto;
    background: url('../assets/pic.png');
    background-size: 100% 100%;
@@ -11,8 +12,10 @@
 .imgText{
    font-family: 'Roboto Slab', serif;
    text-align: center;
+   margin-bottom: 3rem;
    color: rgb(252, 210, 73);
    text-shadow: rgb(41, 41, 41) 2px 4px 6px;
-   font-size: 2.5rem;
-   font-weight: 400;
+   font-size: 4rem;
+   width: 22ch;
+   font-weight: 600;
 }

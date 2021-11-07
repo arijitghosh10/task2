@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 .heading{
     text-align: center;
-    font-size: 4rem;
-    color: rgb(201, 5, 5);
+    font-size: 3rem;
+    font-family: 'Questrial', sans-serif;
+    color: #e21c21;
     width: 100%;
+    position: relative;
+}
+.heading::after{
+    content: '';
+    width: 11.5rem;
+    height: 0.25rem;
+    position: absolute;
+    background-color: #000;
+    bottom: 0px;
+    left: 43.5%;
 }
 .outerDiv{
-    width: 95rem;
-    margin: auto;
+    width: 75rem;
+    margin: 0.5rem auto ;
     text-align: center;
     height: 35rem;
     background: url('../assets/lines.jpg');
@@ -15,7 +27,7 @@
     place-items: center;
 }
 .person{
-    width: 85rem;
+    width: 75rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

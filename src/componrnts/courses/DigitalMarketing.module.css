@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
 .section2{
-    width: 95rem;
-    height: 37rem;
+    width: 75rem;
+    height: 30rem;
     margin: auto;
     display: flex;
 }
 .picture1{
-    width: 45rem;
+    width: 37rem;
     background: url('../../assets/digital1.jpg');
     background-size: 100% 100%;
 }
 .info{
-    width: 25rem;
+    width: 19rem;
     background: crimson;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     font-family: 'Andada Pro', serif
 }
 .picture2{
-    width: 25rem;
+    width: 19rem;
     background: url('../../assets/digital2.jpg');
     background-size: 100% 100%;
 }

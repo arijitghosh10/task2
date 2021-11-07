@@ -1,10 +1,11 @@
 .wrapper{
-    width: 91rem;
-    height: 40rem;
-    margin: 1rem auto;
+    width: 72rem;
+    height: 35rem;
+    margin: 1rem auto 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     text-align: center;
+    gap: 4rem;
     background: rgb(250, 249, 249);
 }
 .benefit{
@@ -15,8 +16,8 @@
     max-width: 23ch;
 }
 .benefit p{
-    font-size: 1.25rem;
-    font-weight: lighter;
+    font-size: 1rem;
+    font-weight: 300;
     line-height: 1.8;
 }
 .topic{
@@ -25,5 +26,5 @@
     text-decoration: underline;
 }
 .fontAwesome{
-    font-size: 5rem;
+    font-size: 6rem;
 }
